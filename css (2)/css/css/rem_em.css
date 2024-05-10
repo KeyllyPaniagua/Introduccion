@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(135, 170, 170);
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+body{
+    font-size: 17px;
+}
+
+.caja_pixel{
+    background-color: rgb(190, 190, 208);
+    width: 400px;
+    height: 400px;
+    margin: 16px auto;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.caja_pixel{
+    font-size: 16px;
+}
+
+.caja_rem{
+    background-color: lightgreen;
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.caja_rem p{
+    font-size: 1rem;
+}
+
+.caja_em{
+    background-color: lavenderblush;
+    width: 25em;
+    height: 25em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.caja_em p{
+    font-size: 1em;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.cuadro{
+    background-color: rgb(237, 237, 105);
+    width: 30vw;
+    height: 30vh;
+    margin: auto;
+}

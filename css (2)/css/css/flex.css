@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(192, 212, 241);
+    font-size: 22px;
+}
+.flex-container{
+    background-color: rgb(9, 92, 92);
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+       flex-flow: row wrap;
+       /* height: 300px; */
+       justify-content: space-around;
+       align-items: center;
+       align-content: end;
+}
+.flex-container div{
+    background-color: rgb(73, 184, 160);
+    border: 1px solid rgb(84, 163, 119);
+    width: 7.5rem;
+    margin: 16px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.hijo{
+    order: -1;
+    flex-grow: 4;
+    align-self: flex-start;
+}
+
+/* estilos ejemplo 2 */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(138, 93, 161);
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    color: aliceblue;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color:rgba(128,128,128,0.5);
+}
+
+.logo img{
+    width: 95px;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+
+.row{
+    display: flex;
+   }
+
+aside{
+    flex: 30%;
+    background-color: rgb(117, 176, 176);
+    padding: 20px;
+}
+
+section{
+    flex: 70%;
+    background-color: rgb(196, 168, 157);
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+}
+
+.video{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: calc(100vw*30/100);
+ }
+
+ cite{
+    text-align: center;
+    font-size: 18px;
+    display: block;
+ }
+
+ h2,h3{
+    text-shadow: 3px 3px 3px rgb(216, 97, 216);
+    text-align: center;
+ }
+
+ @media screen and (max-width:700px) {
+    nav,header,footer,.row, .row_2{
+        flex-wrap: wrap;
+        font-size: 10px;
+        flex-direction: column;
+    }    
+ }
+
+ html{
+    font-size: 16px;
+ } 
+
+ columna{
+    flex: 30%;
+    background-color: rgb(117, 176, 176);
+    padding: 20px;
+ }
+
+ /* Ejemplo 3 */
+ .row_2{
+    display: flex;
+    background-color: blueviolet;
+ }
+
+ .columna3{
+    flex: 25%;
+    background-color: blue;
+    padding: 20px;
+    margin: 5%;
+ }
